@@ -9,5 +9,7 @@ Sends email if host is down
 
 Requires
 --------
+* IO::Socket
 * Email::MIME
 * Email::Sender::Simple
+* Sys::Hostname
